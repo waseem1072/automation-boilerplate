@@ -8,7 +8,7 @@ public class PropertyFileReader {
     public static String getPropertyValue(String propertyName) {
         String propertyValue = null;
 
-        try(InputStream inputStream = PropertyFileReader.class.getClassLoader().getResourceAsStream("test-data.properties")) {
+        try (InputStream inputStream = PropertyFileReader.class.getClassLoader().getResourceAsStream("test-data.properties")) {
             Properties properties = new Properties();
             properties.load(inputStream);
             propertyValue = properties.getProperty(propertyName);

@@ -1,9 +1,6 @@
 package com.info.demoqa.test.ui;
 
-import com.info.demoqa.page.LoginPage;
-import com.info.demoqa.page.ProductPage;
 import com.maxsoft.testngtestresultsanalyzer.annotations.Category;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {

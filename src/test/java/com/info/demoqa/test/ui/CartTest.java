@@ -1,6 +1,5 @@
 package com.info.demoqa.test.ui;
 
-import com.info.demoqa.page.LoginPage;
 import com.info.demoqa.page.ProductPage;
 import com.info.demoqa.page.YourCartPage;
 import com.maxsoft.testngtestresultsanalyzer.annotations.Category;
